@@ -1,0 +1,264 @@
+:root {
+  --body-color: #f3f4f6;
+  --pair-body-color: #e7ebee;
+  --black: #262626;
+  --pair-black: #383838;
+  --blue: #566cd2;
+  --blue-light: #3498db;
+  --blue-dark: #223cd1;
+  --purple-light: #5e63b1;
+  --purple: #8e44ad;
+  --purple-dark: #3c428c;
+  --red: #df1e32;
+  --red-dark: #8a131f;
+  --yellow: #f4b932;
+  --yellow-light: #e2c070;
+  --orang: #fd5403;
+  --orang-light: #fb7d42;
+  --Brown: #8b4513;
+  --pink: #ff1756;
+  --green: #1cb65d;
+  --green-light: #32c7a7;
+  --green-dark: #0e6956;
+  /* n */
+  --purple-light-n: #d4c1f9;
+  --purple-dark-n: #8979a8;
+  --blue-light-n: #dce3f3;
+  --blue-n: #b4caf3;
+  --blue-dark-n: #3a73f0;
+  --green-light-n: #deeee3;
+  --green-n: #bae0ca;
+  --green-dark-n: #3da877;
+  --orange-light-n: #faf0d7;
+  --orange-n: #fae6b1;
+  --orange-dark-n: #fcc53b;
+  /*  */
+  --black2: #131d22;
+  --header-text-color: #444444;
+  --text-color: #929294;
+  --text-color2: #dbe0e0;
+}
+
+/* box message */
+
+.container-box-message {
+  top: 2.5rem;
+}
+
+/* end box message */
+
+/* profile */
+
+.container-profile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 3rem 0;
+}
+
+/* img student */
+
+.img-profile {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: var(--black);
+}
+
+/* end img student */
+
+/* name student */
+
+.parent-information-student {
+  margin: 2rem 0;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-name {
+  color: var(--purple-dark);
+  padding: 0.25rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.student-user-name {
+  color: var(--black);
+  padding: 0.25rem 0;
+}
+
+/* end name student */
+
+/* info main student */
+
+.info-student {
+  width: 35rem;
+  min-width: 10rem;
+  max-width: 90%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--black);
+  border-radius: 0.6rem;
+  background-color: var(--black);
+  color: var(--body-color);
+}
+
+.box-info-student {
+  margin: 0 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-info-student-main {
+  font-size: 1.1rem;
+  color: var(--body-color);
+  margin: 0.25rem 0;
+}
+
+.box-info-student-title {
+  font-size: 0.82rem;
+  font-weight: 100;
+  color: var(--pair-body-color);
+  margin: 0.25rem 0;
+}
+
+/* end info main student */
+
+/* info student */
+
+.container-info-student {
+  width: 92.5%;
+  margin: 2rem 0;
+  padding: 1.8rem 0;
+  border: 1px solid var(--black);
+  border-radius: 0.6rem;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.item-info-student {
+  width: 100%;
+  min-height: 2rem;
+  max-height: 5rem;
+  margin: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: var(--body-color);
+}
+
+.icon-info-student {
+  width: 3rem;
+  padding: 0.2rem 0 0 0;
+  border-top: 1px solid var(--pair-black);
+  border-left: 1px solid var(--pair-black);
+  border-bottom: 1px solid var(--pair-black);
+  border-radius: 5rem 0 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-info-student {
+  width: 40%;
+  padding: 0 1rem 0 0;
+  color: var(--body-color);
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--body-color);
+}
+
+.dot-info-student {
+  color: var(--green);
+  width: 4%;
+}
+
+.desc-info-student,
+.desc-info-student:focus {
+  width: 55%;
+  padding: 0 0.5rem 0 0;
+  font-size: 1rem;
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  color: var(--pair-body-color);
+  outline: none;
+}
+
+/* end info student */
+
+/* edit info student */
+
+.edit-info-student {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-edit-info-student {
+  width: 9rem;
+  height: 2.8rem;
+  margin: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.6rem;
+  background-color: var(--body-color);
+  color: var(--purple-dark);
+  outline: none;
+  transition: 0.2s;
+}
+
+.btn-delete-account {
+  width: 12rem;
+  height: 2.8rem;
+  margin: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--red);
+  border-radius: 0.6rem;
+  background-color: var(--body-color);
+  color: var(--red);
+  outline: none;
+  transition: 0.2s;
+}
+
+.btn-edit-info-student:hover {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--body-color);
+  transition: 0.2s;
+}
+
+.btn-delete-account:hover {
+  border: 1px solid var(--red);
+  background-color: var(--red);
+  color: var(--body-color);
+  transition: 0.2s;
+}
+
+/* end edit info student */
+
+/* end profile */

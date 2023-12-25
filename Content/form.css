@@ -1,0 +1,343 @@
+* {
+  transition: 0.4s;
+}
+
+:root {
+  --body-color: #f3f4f6;
+  --pair-body-color: #e7ebee;
+  --black: #262626;
+  --pair-black: #383838;
+  --blue: #566cd2;
+  --blue-light: #3498db;
+  --blue-dark: #223cd1;
+  --purple-light: #5e63b1;
+  --purple: #8e44ad;
+  --purple-dark: #3c428c;
+  --red: #df1e32;
+  --red-dark: #8a131f;
+  --yellow: #f4b932;
+  --yellow-light: #e2c070;
+  --orang: #fd5403;
+  --orang-light: #fb7d42;
+  --Brown: #8b4513;
+  --pink: #ff1756;
+  --green: #1cb65d;
+  --green-light: #32c7a7;
+  --green-dark: #0e6956;
+  /* n */
+  --purple-light-n: #d4c1f9;
+  --purple-dark-n: #8979a8;
+  --blue-light-n: #dce3f3;
+  --blue-n: #b4caf3;
+  --blue-dark-n: #3a73f0;
+  --green-light-n: #deeee3;
+  --green-n: #bae0ca;
+  --green-dark-n: #3da877;
+  --orange-light-n: #faf0d7;
+  --orange-n: #fae6b1;
+  --orange-dark-n: #fcc53b;
+  /*  */
+  --black2: #131d22;
+  --header-text-color: #444444;
+  --text-color: #929294;
+  --text-color2: #dbe0e0;
+}
+
+/*  */
+
+.container-box-message {
+  position: fixed;
+  top: 2rem;
+  left: -10rem;
+}
+
+/* end */
+
+/* form */
+
+.form-sign-up {
+  padding: 5rem 0 0.25rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  display: none;
+  opacity: 0;
+}
+
+.form-sign-up-two,
+.form-sign-up-tree {
+  padding: 5rem 0 0.25rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+/* poster form */
+
+.container-poster-form,
+.container-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-poster-form {
+  flex-direction: column;
+  background-color: var(--purple-light-n);
+}
+
+.poster-form {
+  width: 12rem;
+}
+
+.title-poster-form {
+  font-size: 1.65rem;
+  font-weight: bold;
+  color: var(--purple);
+  padding: 1rem 0;
+}
+
+.desc-poster-form {
+  padding: 0 2rem;
+  direction: rtl;
+  color: var(--black2);
+}
+
+/* end poster form */
+
+/* main form */
+
+.container-form {
+  border-left: 1px solid var(--purple-light-n);
+}
+
+.form-login {
+  padding: 5rem 0 0.25rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 1rem 0;
+  color: var(--purple);
+}
+
+.group-input,
+.group-btn,
+.group-text,
+.group-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+.input-email-login {
+  width: 18rem;
+  height: 2.5rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.5rem;
+  background-color: #00000000;
+  padding: 0 0.5rem 0 0;
+  color: var(--black);
+  caret-color: var(--purple-dark);
+  direction: rtl;
+  transition: 0.4s;
+}
+
+.input-email-login:focus {
+  outline: none;
+  border: 1px solid var(--purple-dark);
+  box-shadow: 0px 0px 12px 0px var(--purple-dark);
+  transition: 0.4s;
+}
+
+.group-forget-password {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+  margin: 0.75rem 0;
+}
+
+.link-forget-password,
+.text-form-sig-up,
+.text-form-login {
+  text-align: right !important;
+  color: var(--blue-light);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.link-forget-password:hover,
+.text-form-sig-up:hover,
+.text-form-login:hover {
+  color: var(--blue-dark-n);
+  transition: 0.1s;
+}
+
+.btn-submit-login,
+.btn-submit-sign-up,
+.btn-next-submit-sign-up {
+  width: 18rem;
+  height: 2.5rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.4rem;
+  background-color: #00000000;
+  color: var(--purple-dark);
+  outline: none;
+  transition: 0.4s;
+}
+
+.btn-submit-login:hover,
+.btn-submit-sign-up:hover,
+.btn-next-submit-sign-up:hover {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--body-color);
+  transition: 0.4s;
+}
+
+.text {
+  color: var(--black);
+}
+
+.btn-login-help {
+  width: 8.5rem;
+  height: 2.5rem;
+  margin: 0 0.75rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.4rem;
+  background-color: #00000000;
+  color: var(--purple-dark);
+  outline: none;
+  transition: 0.4s;
+}
+
+.btn-login-help:hover {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--body-color);
+  transition: 0.4s;
+}
+
+.btn-login-help i {
+  padding: 0 0.25rem 0 0;
+}
+
+/* end main form */
+
+/* end form */
+
+/* form sign-up */
+
+.form-sign-up h1,
+.form-sign-up-two h1,
+.form-sign-up-tree h1 {
+  text-align: center;
+}
+
+input {
+  width: 18rem;
+  height: 2.5rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.5rem;
+  background-color: #00000000;
+  padding: 0 0.5rem 0 0;
+  color: var(--black);
+  direction: rtl;
+  transition: 0.4s;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid var(--purple-dark);
+  box-shadow: 0px 0px 12px 0px var(--purple-dark);
+  transition: 0.4s;
+}
+
+select {
+  width: 18rem;
+  height: 2.5rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 0.5rem;
+  background-color: #00000000;
+  padding: 0 0.5rem 0 0;
+  color: var(--purple-dark);
+  direction: rtl;
+  transition: 0.4s;
+}
+
+select option {
+  background-color: var(--pair-body-color);
+}
+
+/* btn pagination */
+
+.parent-pagination {
+  margin: 3rem 0 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-btn-pagination {
+  position: relative;
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hr-pagination {
+  width: 10rem;
+  background-color: var(--purple-dark);
+  border: 2px solid var(--purple-dark);
+  position: absolute;
+  z-index: 20;
+}
+
+.btn-pagination-sign-up {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 100%;
+  background-color: var(--body-color);
+  color: var(--purple-dark);
+  font-size: 1.2rem;
+  z-index: 21;
+  transition: 0.4s;
+}
+
+.btn-pagination-sign-up:hover {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--body-color);
+  transition: 0.4s;
+}
+
+.btn-pagination-sign-up-page {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--body-color);
+  transition: 0.4s;
+}
+
+/* end btn pagination */
+
+/* end form */
